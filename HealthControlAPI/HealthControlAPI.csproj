@@ -142,6 +142,10 @@
     <Compile Include="Migrations\201809160436120_Beginning.Designer.cs">
       <DependentUpon>201809160436120_Beginning.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809171314076_AddEmailAndUsuarioToUser.cs" />
+    <Compile Include="Migrations\201809171314076_AddEmailAndUsuarioToUser.Designer.cs">
+      <DependentUpon>201809171314076_AddEmailAndUsuarioToUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\HealthControlAPIContext.cs" />
     <Compile Include="Models\User.cs" />
@@ -166,6 +170,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809160436120_Beginning.resx">
       <DependentUpon>201809160436120_Beginning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809171314076_AddEmailAndUsuarioToUser.resx">
+      <DependentUpon>201809171314076_AddEmailAndUsuarioToUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

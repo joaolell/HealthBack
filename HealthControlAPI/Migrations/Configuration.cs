@@ -25,28 +25,33 @@ namespace HealthControlAPI.Migrations
         {
             Id = 1,
             Nome = "João",
-            Senha = "1234"
+            Senha = "1234",
+            Email = "joao@joao.com",
+            Usuario = "Joaozinho"
         },
         new User()
         {
             Id = 2,
             Nome = "Maria",
-            Senha = "1234"
-
+            Senha = "1234",
+            Email = "maria@maria.com",
+            Usuario = "Mariazinha"
         },
         new User()
         {
             Id = 3,
             Nome = "Carlos",
-            Senha = "1234"
-
+            Senha = "1234",
+            Email = "carlos@carlos.com",
+            Usuario = "Carlinhos"
         },
         new User()
         {
             Id = 4,
             Nome = "Diego",
-            Senha = "1234"
-
+            Senha = "1234",
+            Email = "diego@diego.com",
+            Usuario = "Dieguinho"
         }
         );
         }
