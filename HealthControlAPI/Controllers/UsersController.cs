@@ -15,6 +15,7 @@ using System.Web.Http.Cors;
 namespace HealthControlAPI.Controllers
 {
     //[EnableCors(origins: "http://localhost:3000/", headers: "*", methods: "*")]
+    [RoutePrefix("api/Users")]
     public class UsersController : ApiController
     {
         private HealthControlAPIContext db = new HealthControlAPIContext();
@@ -41,6 +42,26 @@ namespace HealthControlAPI.Controllers
             Id = u.Id,
             Nome = u.Nome
         }).SingleOrDefaultAsync(u => u.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
+        [Route("{email}/login")]
+        [HttpGet]
+
+        public async Task<IHttpActionResult> Login(string email)
+        {
+            var user = await (from u in db.Users
+                              where u.Email == email
+                              select new UserDTO
+                              {
+                                  Id = u.Id
+                              }).FirstOrDefaultAsync();
+
             if (user == null)
             {
                 return NotFound();
