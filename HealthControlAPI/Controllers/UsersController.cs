@@ -11,6 +11,8 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using HealthControlAPI.Models;
 using System.Web.Http.Cors;
+using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
 
 namespace HealthControlAPI.Controllers
 {

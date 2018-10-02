@@ -49,3 +49,6 @@ C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthCont
 C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\bin\System.Web.Http.Cors.dll
 C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\bin\System.Web.Http.Cors.xml
 C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\obj\Debug\HealthControlAPI.Migrations.AddEmailAndUsuarioToUser.resources
+C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\bin\MySql.Data.dll
+C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\bin\Google.Protobuf.dll
+C:\Users\joaoc\Documents\Visual Studio 2015\Projects\HealthControlAPI\HealthControlAPI\bin\MySql.Data.xml
