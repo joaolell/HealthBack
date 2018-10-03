@@ -149,7 +149,11 @@
       <DependentUpon>201809171314076_AddEmailAndUsuarioToUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\FabricanteJSON.cs" />
     <Compile Include="Models\HealthControlAPIContext.cs" />
+    <Compile Include="Models\LabJSON.cs" />
+    <Compile Include="Models\PagesJSON.cs" />
+    <Compile Include="Models\ResultSetMySql.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
